@@ -1,5 +1,3 @@
-#include <iostream>
-
 #include "common/common.h"
 
 int main() {
