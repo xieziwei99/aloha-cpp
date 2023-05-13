@@ -1,6 +1,8 @@
 #include <iostream>
 
+#include "common/common.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    print("hello world");
     return 0;
 }
