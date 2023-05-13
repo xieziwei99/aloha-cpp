@@ -4,6 +4,8 @@
 
 #include "gtest/gtest.h"
 
+#include "common/utils.h"
+
 TEST(AlohaTest, MainTest) {
     int a = 1;
     EXPECT_EQ(a, 1);

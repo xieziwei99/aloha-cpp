@@ -6,9 +6,11 @@
 #define ALOHA_COMMON_H
 
 #include <iostream>
+#include <vector>
 
-inline void print(const std::string &s) {
-    std::cout << s << std::endl;
+template<typename T>
+void print(const T &t) {
+    std::cout << t << std::endl;
 }
 
 
