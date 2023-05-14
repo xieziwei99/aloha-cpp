@@ -29,3 +29,10 @@ TEST(UtilsTest, MaxTest) {
     EXPECT_EQ(*it, 4);
     EXPECT_EQ(it, arr.begin());
 }
+
+TEST(UtilsTest, IsIterableTest) {
+    EXPECT_TRUE(is_iterable<std::vector<int>>);
+    EXPECT_TRUE(bool(is_iterable<std::map<int, double>>));
+    EXPECT_TRUE(is_iterable<std::string>);
+    EXPECT_FALSE(is_iterable<double>);
+}

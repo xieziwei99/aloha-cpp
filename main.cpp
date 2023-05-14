@@ -5,5 +5,8 @@ int main() {
     std::vector<int> arr{1, 2, 3, 4, 6, 7, 8, 9};
     auto it = BinarySearch(arr, 5);
     print(*it);
+    std::string s = "aloha world";
+    print(s);
+    print(arr);
     return 0;
 }
